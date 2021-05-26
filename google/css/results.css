@@ -1,0 +1,130 @@
+
+#wrapper {
+    min-height: 100vh;
+    padding: 20px 30px;
+}
+
+#border1 {
+    border-bottom: solid #ebebeb;
+    border-width: 1px;
+    width: 100%;
+}
+
+#option-bar {
+    position: relative;
+    left: 130px;
+    width: 832px;
+    height: 15px;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+#option-bar a {
+    display: flex;
+    align-items: center;
+}
+
+#option-bar li {
+    font-size: 13px;
+    font-family: arial, sans-serif;
+    margin-right: 25px;
+}
+
+#option-bar li img {
+   padding-right: 5px;
+}
+
+
+#option-bar a {
+    text-decoration: none;
+    color: #5f6368;
+}
+
+#section-1{
+    display: flex;
+    align-items: center;
+}
+
+.single-res .header {
+    padding-top: 4px;
+    margin-bottom: 3px;
+    font-size: 20px;
+    line-height: 26px;
+    color: #1a0dab;
+    text-decoration: none;
+    -webkit-tap-highlight-color: rgba(0,0,0,.10);
+}
+
+.single-res .text {
+    color: #4d5156;
+    padding-top: 0px;
+    margin-bottom: 0px;
+    font-size: 14px;
+    line-height: 1.58;
+}
+
+.single-res {
+    margin-bottom: 29px;
+}
+
+.results-rows {
+    margin-left: 150px;
+    display: none;
+}
+
+#wrapper.results .results-rows {
+    display: block;
+}
+
+#wrapper.results .buttons {
+    display: none;
+}
+
+#wrapper.results .section-1 {
+    flex-direction: row;
+    align-items: center;
+}
+
+#wrapper.results .section-1 .logo {
+    margin: 0px;
+    width: 100px;
+    margin-right: 50px;
+}
+
+#wrapper.results .option-bar {
+    display: flex;
+}
+
+.single-icon {
+    display: flex;
+    margin-right: 15px;
+    font-size: 14px;
+}
+
+.single-icon img {
+    width: 16px;
+    height: 16px;
+    margin-right: 6px;
+}
+
+.option-bar {
+    display: flex;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.results #main-search {
+	box-shadow: 0 2px 5px 1px rgb(64 60 67 / 16%);
+}
+.count-info {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-family: Google Sans,arial,sans-serif;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-right: 8px;
+    color: rgb(112, 117, 122);
+    margin: 10px 0px;
+    font-size: 13px;
+}
