@@ -202,4 +202,11 @@ footer a:hover {
   transition: box-shadow 100ms;
   outline: none;
 }
-
+.active {
+  display: block;
+}
+.autocomplete-result.is-active,
+.autocomplete-result:hover {
+  background-color: #4aae9b;
+  color: white;
+}
